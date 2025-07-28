@@ -7,4 +7,7 @@ pub enum StakeError {
 
     #[msg("Time has not elapsed for staking")]
     TimeElapsed,
+
+    #[msg("freeze period is not over yet")]
+    FreezePeriod
 }
